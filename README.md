@@ -1,11 +1,7 @@
 # PySpark_Notes_Project
 
-```markdown
-# PySpark Cheat Sheet
-
 ## Setting Up Spark Session
-
-```python
+```
 from pyspark.sql import SparkSession
 spark = SparkSession.builder \
     .appName("PySpark Cheat Sheet") \
@@ -86,6 +82,6 @@ rdd.map(lambda x: x * x).collect()
 - **Caching Data:** Use `df.cache()` or `df.persist()` to cache dataframes across operations.
 - **Repartitioning:** Repartition or coalesce datasets using `df.repartition(numPartitions)` or `df.coalesce(numPartitions)` to optimize shuffling and improve execution times.
 
-This cheat sheet covers basic yet fundamental aspects of PySpark, including setting up the environment, manipulating dataframes, and optimizing performance. For more comprehensive details, the official PySpark documentation is an excellent resource.
+This notes act like a cheat sheet that covers basic yet fundamental aspects of PySpark, including setting up the environment, manipulating dataframes, and optimizing performance. For more comprehensive details, the official PySpark documentation is an excellent resource.
 ```
 

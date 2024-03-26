@@ -84,4 +84,3 @@ rdd.map(lambda x: x * x).collect()
 
 This notes act like a cheat sheet that covers basic yet fundamental aspects of PySpark, including setting up the environment, manipulating dataframes, and optimizing performance. For more comprehensive details, the official PySpark documentation is an excellent resource.
 ```
-
